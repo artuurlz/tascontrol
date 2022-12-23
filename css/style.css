@@ -6,6 +6,7 @@
     --shadow-color: hsla(221.54, 14.94%, 17.06%, 100%);
     --first-color: hsla(354.41, 92.91%, 50.2%, 100%);
     --first-color-alt: hsla(354.39, 93.04%, 45.1%, 100%);
+    --second-color: hsl(153.66, 100%, 40.2%);
     --font-color: hsla(0, 0%, 90.59%, 100%);
 
     /* size */
@@ -123,6 +124,14 @@ a{
     column-gap: .5em;
 }
 
+#home_box_result_meta_value, #home_box_result_falta_value{
+    color: var(--first-color);
+}
+
+#home_box_result_totaltask_value, #money{
+    color: var(--second-color);
+}
+
 .home_container_title i{
     color: var(--first-color);
     font-size: var(--font-size-big);
@@ -182,6 +191,10 @@ a{
     font-weight: 100;
     letter-spacing: 1px;
     column-gap: .5em;
+}
+
+.home_box_schedule_title span{
+    color: var(--first-color-alt);
 }
 
 /* selection */
