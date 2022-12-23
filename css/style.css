@@ -2,10 +2,10 @@
 
 :root{
     /* colors */
-    --back-color: rgb(10, 11, 14);
+    --back-color: 	hsl(270, 30%, 8%);
     --shadow-color: hsla(221.54, 14.94%, 17.06%, 100%);
-    --first-color: hsla(354.41, 92.91%, 50.2%, 100%);
-    --first-color-alt: hsla(354.39, 93.04%, 45.1%, 100%);
+    --first-color: 	hsl(342, 98%, 52%);
+    --first-color-alt: 	hsl(342, 100%, 50%);
     --second-color: hsl(153.66, 100%, 40.2%);
     --font-color: hsla(0, 0%, 90.59%, 100%);
 
@@ -33,7 +33,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: var(--font-size-normal);
     color: var(--font-color);
-    background: linear-gradient(to left, black, var(--back-color));
+    background: linear-gradient(to left, hsl(268, 28%, 10%), var(--back-color));
 }
 
 ul{
