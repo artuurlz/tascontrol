@@ -115,75 +115,93 @@ if(btnAdc9.addEventListener('click', () => {
     document.querySelector('#money').innerHTML=money.toFixed(2);
 }));
 
-
+// REMOVE
 if(btnRem1.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_1_value').innerHTML=--valor1;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_1_value').innerHTML=--valor1;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem2.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_2_value').innerHTML=--valor2;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_2_value').innerHTML=--valor2;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem3.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_3_value').innerHTML=--valor3;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_3_value').innerHTML=--valor3;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem4.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_4_value').innerHTML=--valor4;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_4_value').innerHTML=--valor4;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem5.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_5_value').innerHTML=--valor5;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_5_value').innerHTML=--valor5;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem6.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_6_value').innerHTML=--valor6;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_6_value').innerHTML=--valor6;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem7.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_7_value').innerHTML=--valor7;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_7_value').innerHTML=--valor7;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem8.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_8_value').innerHTML=--valor8;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_8_value').innerHTML=--valor8;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
 
 if(btnRem9.addEventListener('click', () => {
-    document.querySelector('.home_box_schedule_title_9_value').innerHTML=--valor9;
-    document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
-    document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
-    money -= taskvalue;
-    document.querySelector('#money').innerHTML=money.toFixed(2);
+    if(totaltask > 0 ){
+        document.querySelector('.home_box_schedule_title_9_value').innerHTML=--valor9;
+        document.querySelector('#home_box_result_totaltask_value').innerHTML=--totaltask;
+        document.querySelector('#home_box_result_falta_value').innerHTML=++faltatask;
+        money -= taskvalue;
+        document.querySelector('#money').innerHTML=money.toFixed(2);
+    };
 }));
