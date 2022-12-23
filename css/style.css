@@ -34,6 +34,7 @@ body{
     font-size: var(--font-size-normal);
     color: var(--font-color);
     background: linear-gradient(to left, hsl(268, 28%, 10%), var(--back-color));
+    overflow-x: hidden;
 }
 
 ul{
