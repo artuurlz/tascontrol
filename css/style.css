@@ -159,6 +159,11 @@ a{
     padding-block: 4em;
 }
 
+.home_box_schedule_button_box{
+    display: flex;
+    column-gap: .5em;
+}
+
 .home_box_schedule_box{
     display: flex;
     justify-content: space-between;
@@ -169,9 +174,9 @@ a{
 .home_box_schedule_button{
     padding: .5em;
     outline: none;
-    border: 1px solid var(--first-color);
+    border: 1px solid var(--second-color);
     background-color: transparent;
-    color: var(--first-color);
+    color: var(--second-color);
     font-weight: 600;
     font-size: var(--font-size-normal);
     display: flex;
@@ -181,7 +186,18 @@ a{
 
 .home_box_schedule_button:hover{
     color: var(--back-color);
+    background-color: var(--second-color);
+}
+
+.remove{
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
+    transition: color .3s ease, background .3s ease;
+}
+
+.remove:hover{
     background-color: var(--first-color);
+    color: var(--back-color);
 }
 
 .home_box_schedule_title{
