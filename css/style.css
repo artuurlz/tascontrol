@@ -2,7 +2,7 @@
 
 :root{
     /* colors */
-    --back-color: 	hsl(270, 30%, 8%);
+    --back-color: black;
     --shadow-color: hsla(221.54, 14.94%, 17.06%, 100%);
     --first-color: 	hsl(342, 98%, 52%);
     --first-color-alt: 	hsl(342, 100%, 50%);
@@ -33,7 +33,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: var(--font-size-normal);
     color: var(--font-color);
-    background: linear-gradient(to left, hsl(268, 28%, 10%), var(--back-color));
+    background: var(--back-color);
     overflow-x: hidden;
 }
 
